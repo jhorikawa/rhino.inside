@@ -16,7 +16,7 @@
   "author": "Luis E. Fraguada",
   "license": "MIT",
   "dependencies": {
-    "electron": "^2.0.8",
+    "electron": "^7.2.4",
     "electron-edge-js": "^8.3.6"
   }
 }
