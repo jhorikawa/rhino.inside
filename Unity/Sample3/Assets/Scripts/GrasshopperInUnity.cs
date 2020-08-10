@@ -51,22 +51,11 @@ public class GrasshopperInUnity : MonoBehaviour
         }
       }
 
-      //for(int i=0; i<_meshes.Count; i++)
-      //{
-      //  Destroy(_meshes[i]);
-      //}
-
-      //_meshes.Clear();
-
       for (int i = 0; i < values.Length; i++)
       {
         _gameObjects[i].GetComponent<MeshFilter>().mesh = (values[i] as Rhino.Geometry.Mesh).ToHost();
       }
     }
-    //if (_mesh != null)
-    //{
-    //  gameObject.GetComponent<MeshFilter>().mesh = _mesh.ToHost();
-    //}
   }
 
   //Rhino.Geometry.Mesh _mesh;
